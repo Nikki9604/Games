@@ -18,7 +18,6 @@ void ThreadAct1(){
     // Calling the Initiallize function
     BowlingGame_obj.Initiallize();  
     
-    // BowlingGame_obj.DisplayScore();
     std::this_thread::sleep_for(std::chrono::seconds(1));  // Sleep for 1 second
     
 }
